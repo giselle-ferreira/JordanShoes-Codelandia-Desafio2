@@ -4,12 +4,18 @@
 
 >### 🎨 Designed by [Iuri Silva](https://www.linkedin.com/in/iuricode/) - Codelândia 🎨
 (The section "Categories" wasn't in the original design.)
+
 <br>
 
 >## Technologies
 + HTML
 + CSS
 + Responsive Layout
+
+<br>
+
+>## Website
++ [JordanShoes](https://jordanshoes-codelandia.netlify.app/)
 
 <br>
 
