@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+ body {
+  background:rgba(246, 246, 246, 1);
+} 
+
+/*------ header ------*/
+header {
+  height: 120px;
+  width: 100vw;
+  display: table;
+  background:rgba(24, 24, 24, 1);
+}
+
+header .discount {
+  height: 60px;
+  display: table;
+  width: 100vw;
+}
+
+header .discount p {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font: normal 500 16px/31px 'Montserrat', sans-serif;
+  color: rgba(246, 246, 246, 1);
+}
+
+header .title1 {
+  height: 60px;
+  display: table;
+  width: 100vw;
+  background:rgba(246, 246, 246, 1);
+}
+
+header .title1 p {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font: normal 600 24px/33px 'Montserrat', sans-serif;
+}
+
+/*------ banner ------*/
+.banner {
+  width: 100vw;
+  height: 378px;
+  position: relative;
+  background-image: url(assets/banner.svg);
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 378px;
+  background-color: rgba(24, 24, 24, 1);
+  opacity: 0.6;
+}
+
+ .banner label {
+  position: absolute; 
+  left: 100px;
+  top: 129px;
+  color: rgba(246, 246, 246, 1);
+  background-size: cover;
+}
+
+.banner label h1 {
+  font: normal 700 32px/39px 'Montserrat', sans-serif;
+  margin-bottom: 19px;
+}
+
+.banner label p {
+  font: normal 600 18px/35px 'Montserrat', sans-serif;
+} 
+
+/*------ Highlights ------*/
+main .highlights {
+  height: 215px;
+  display: table;
+  width: 100vw;
+  background:rgba(246, 246, 246, 1);
+}
+
+main .highlights h1 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font: normal 600 32px/62px 'Montserrat', sans-serif;
+}
+
+main .highlights h1 span {
+  font: normal 500 18px/35px 'Montserrat', sans-serif;
+}
+
+/*------ Products ------*/
+.products {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+/*------ Row 1 ------*/
+.products .row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6.5px 39px 6.5px;
+}
+
+.products .row1 div {
+  width: 300px;
+  height: 302px;
+  border-radius: 2px;
+  background: #EBE9EA;
+  margin: 0 6.5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.products .row1 div:hover {
+  background: rgba(24, 24, 24, 1);
+  animation: 
+}
+
+.products .row1 div img {
+  width: 250px;
+  height: 150px;
+  padding: 76px 25px;
+}
+
+/*------ Row 2 ------*/
+.products .row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products .row2 div {
+  width: 300px;
+  height: 302px;
+  border-radius: 2px;
+  background: #EBE9EA;
+  margin: 0 6.5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+ 
+.products .row2 div:hover {
+  background: rgba(24, 24, 24, 1);
+}
+
+.products .row2 div img {
+  width: 250px;
+  height: 150px;
+  padding: 76px 25px;
+}
+
+/*------ Categories ------*/
+main .categories {
+  height: 250px;
+  text-align: center;
+  flex-direction: column;
+}
+
+main .categories h1 {
+  margin-top: 45px;
+  text-align: center;
+  font: normal 600 32px/62px 'Montserrat', sans-serif;
+}
+
+main .categories .cat {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  color: rgba(24, 24, 24, 1);
+  font: normal 600 16px/24px 'Montserrat', sans-serif;
+}
+
+main .categories .cat div {
+  width: 160px;
+  margin: 15px 40px;
+  padding: 15px 60px;
+  background: #dcdcdc;
+  border-radius: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+main .categories .cat div:hover {
+  background: #EBE9EA;
+}
+
+/*------ Footer ------*/
+footer {
+  height: 130px;
+  display: table;
+  width: 100vw;
+  background: #181818;
+  position: relative;
+}
+
+footer .socialmedia {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+}
+
+.socialmedia li {
+  list-style-type: none;
+  padding: 0 18px 0 18px; 
+}
+
+.socialmedia li a img {
+  filter: invert(40%);
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.socialmedia li a img:hover {
+  filter: invert(100%);
+  transform: scale(1.35);
+}
+
+footer div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  font: normal 500 15px/20px 'Montserrat', sans-serif;
+  color: rgba(246, 246, 246, 1);
+}
+
+footer p span {
+  font: normal 500 13px/35px 'Montserrat', sans-serif;
+}
+
+/*------------------------ Media -----------------------*/
+/* -------- Phone -------- */
+@media(max-width: 480px){
+
+  html {
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+  /*------ banner ------*/
+  .banner {
+    background-image: url(assets/bannermobile.png);
+  } 
+
+  .banner label {
+    left: 20px;
+    top: 122px;
+  }
+  
+  .banner label h1 {
+    font: normal 700 28px/39px 'Montserrat', sans-serif;
+    margin-bottom: 19px;
+  }
+  
+  .banner label p {
+    font: normal 600 16px/35px 'Montserrat', sans-serif;
+  } 
+
+
+  /*------ Highlights ------*/
+  main .highlights {
+    height: 227px;
+    margin: auto;
+    max-width: 390px;
+    display: table;
+  }
+
+  main .highlights h1 {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    font: normal 600 28px/35px 'Montserrat', sans-serif;
+  }
+
+  main .highlights h1 span {
+    margin: 0;
+    font: normal 500 16px/18px 'Montserrat', sans-serif;
+  }
+
+
+  /*------ Products ------*/
+  .products .row1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .products .row1 div {
+    margin: 6.5px 0;
+  }
+
+  .products .row2 {
+    flex-direction: column;
+  }
+
+  .products .row2 div {
+    margin: 6.5px 0;
+  }
+
+  /*------ Categories ------*/
+  main .categories {
+    height: 350px;
+  }
+
+  main .categories h1 {
+  font: normal 600 28px/42px 'Montserrat', sans-serif;
+  }
+
+  main .categories .cat {
+    flex-direction: column;
+    font: normal 600 16px/24px 'Montserrat', sans-serif;
+  }
+
+  /*------ Footer ------*/
+  footer {
+    height: 160px;
+  }
+
+  footer div {
+    font: normal 500 13px/20px 'Montserrat', sans-serif;
+  }
+  
+  footer p span {
+    font: normal 500 11px/18px 'Montserrat', sans-serif;
+  }
+  
+}
